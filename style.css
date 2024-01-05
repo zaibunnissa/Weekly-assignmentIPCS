@@ -20,7 +20,7 @@ body {
 }
 
 .navbar a{
-  
+  font-size: larger;
     display: block;
     color: var(--text-color);
     text-align: right;
@@ -37,9 +37,8 @@ body {
   * {
     box-sizing: border-box;
   }
-  /* Create two unequal columns that floats next to each other */
+ 
 .column {
-  /*color:rgba(10, 42, 82, 0.961);*/
   color:#023143;
   float: left;
   padding: 10px;
@@ -103,7 +102,7 @@ body {
   }
 
   .row .column p{
-    font-size: larger;
+    font-size: xx-large;
     padding:25px 0;
     text-align: center;
   }
@@ -111,6 +110,7 @@ body {
   .row .column h2{
     text-align: center;
     padding-top:5px;
+    font-size: xx-large;
   }
 
   .container{
